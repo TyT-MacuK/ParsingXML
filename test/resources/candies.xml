@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<candies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.sweet-life.com/candies"
+         xsi:schemaLocation="http://www.sweet-life.com/candies candies.xsd">
+
+    <chocolate-candy id="c1">
+        <name>Mars</name>
+        <energy in="kkla">443</energy>
+        <ingredients in="mg">
+            <sugar>9</sugar>
+            <cocoa>15</cocoa>
+            <vanillin>4.2</vanillin>
+        </ingredients>
+        <filling>false</filling>
+        <chocolate-type name="MILK"/>
+        <value in="gramm">
+            <proteins>3.6</proteins>
+            <fats>16.4</fats>
+            <carbohydrates>70.5</carbohydrates>
+        </value>
+        <production>Mars</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </chocolate-candy>
+
+    <lollipop-candy id="c2">
+        <name>Rondo</name>
+        <energy in="kkla">322</energy>
+        <ingredients in="mg">
+            <sugar>10</sugar>
+            <water>3</water>
+        </ingredients>
+        <value in="gramm">
+            <proteins>0.3</proteins>
+            <fats>0.6</fats>
+            <carbohydrates>79.6</carbohydrates>
+        </value>
+        <production>Mars</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </lollipop-candy>
+
+    <chocolate-candy id="c3">
+        <name>Truffel</name>
+        <energy in="kkla">487</energy>
+        <ingredients in="mg">
+            <sugar>9</sugar>
+            <cocoa>7</cocoa>
+            <vanillin>2.3</vanillin>
+        </ingredients>
+        <filling>true</filling>
+        <chocolate-type name="DARK"/>
+        <value in="gramm">
+            <proteins>3</proteins>
+            <fats>25.8</fats>
+            <carbohydrates>59.7</carbohydrates>
+        </value>
+        <production>Roshen</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </chocolate-candy>
+
+    <lollipop-candy id="c4">
+        <name>Chupa-Chups</name>
+        <energy in="kkla">380</energy>
+        <ingredients in="mg">
+            <sugar>12</sugar>
+            <water>9.2</water>
+        </ingredients>
+        <value in="gramm">
+            <proteins>0.3</proteins>
+            <fats>0.1</fats>
+            <carbohydrates>95</carbohydrates>
+        </value>
+        <production>Shenma</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </lollipop-candy>
+
+    <lollipop-candy id="c5">
+        <name>Bobs</name>
+        <energy in="kkla">411</energy>
+        <ingredients in="mg">
+            <sugar>12</sugar>
+            <cocoa>9</cocoa>
+            <vanillin>5.9</vanillin>
+        </ingredients>
+        <value in="gramm">
+            <proteins>2.8</proteins>
+            <fats>78</fats>
+            <carbohydrates>8.8</carbohydrates>
+        </value>
+        <production>Mak</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </lollipop-candy>
+
+    <lollipop-candy id="c6">
+        <name>Tic-Tac</name>
+        <energy in="kkla">391</energy>
+        <ingredients in="mg">
+            <sugar>8</sugar>
+            <water>5.9</water>
+        </ingredients>
+        <value in="gramm">
+            <proteins>0.1</proteins>
+            <fats>0.5</fats>
+            <carbohydrates>92.2</carbohydrates>
+        </value>
+        <production>Ferrero</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </lollipop-candy>
+
+    <chocolate-candy id="c7">
+        <name>Twix</name>
+        <energy in="kkla">498</energy>
+        <ingredients in="mg">
+            <sugar>10</sugar>
+            <water>3</water>
+        </ingredients>
+        <filling>true</filling>
+        <chocolate-type name ="MILK"/>
+        <value in="gramm">
+            <proteins>3.9</proteins>
+            <fats>24.4</fats>
+            <carbohydrates>68.2</carbohydrates>
+        </value>
+        <production>Mars</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </chocolate-candy>
+
+    <lollipop-candy id="c8">
+        <name>Lol-Surprise</name>
+        <energy in="kkla">334</energy>
+        <ingredients in="mg">
+            <sugar>7</sugar>
+            <water>5</water>
+        </ingredients>
+        <value in="gramm">
+            <proteins>6.9</proteins>
+            <fats>0.5</fats>
+            <carbohydrates>77</carbohydrates>
+        </value>
+        <production>KonfiTraid</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </lollipop-candy>
+
+    <chocolate-candy id="c9">
+        <name>Pupo-kiwi</name>
+        <energy in="kkla">390</energy>
+        <ingredients in="mg">
+            <sugar>10</sugar>
+            <water>8</water>
+        </ingredients>
+        <filling>true</filling>
+        <chocolate-type name ="MILK"/>
+        <value in="gramm">
+            <proteins>1.5</proteins>
+            <fats>8.5</fats>
+            <carbohydrates>76</carbohydrates>
+        </value>
+        <production>Collection</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </chocolate-candy>
+
+    <chocolate-candy id="c10">
+        <name>Martian</name>
+        <energy in="kkla">542</energy>
+        <ingredients in="mg">
+            <sugar>12</sugar>
+            <cocoa>9</cocoa>
+            <vanillin>5.9</vanillin>
+            <water>5</water>
+        </ingredients>
+        <filling>true</filling>
+        <chocolate-type name ="MILK"/>
+        <value in="gramm">
+            <proteins>2.5</proteins>
+            <fats>39</fats>
+            <carbohydrates>54</carbohydrates>
+        </value>
+        <production>Sweet-Nut</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </chocolate-candy>
+
+    <chocolate-candy id="c11">
+        <name>Pupo-orange</name>
+        <energy in="kkla">390</energy>
+        <ingredients in="mg">
+            <sugar>9</sugar>
+            <water>7.3</water>
+        </ingredients>
+        <filling>true</filling>
+        <chocolate-type name ="MILK"/>
+        <value in="gramm">
+            <proteins>1.5</proteins>
+            <fats>8.5</fats>
+            <carbohydrates>76</carbohydrates>
+        </value>
+        <production>Collection</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </chocolate-candy>
+
+    <chocolate-candy id="c12">
+        <name>Kit-Kat</name>
+        <energy in="kkla">531</energy>
+        <ingredients in="mg">
+            <sugar>8</sugar>
+            <cocoa>9.9</cocoa>
+            <vanillin>4.7</vanillin>
+            <water>4</water>
+        </ingredients>
+        <filling>true</filling>
+        <chocolate-type name ="MILK"/>
+        <value in="gramm">
+            <proteins>5.6</proteins>
+            <fats>29</fats>
+            <carbohydrates>62</carbohydrates>
+        </value>
+        <production>Nestle</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </chocolate-candy>
+
+    <chocolate-candy id="c13">
+        <name>Pupo-pear</name>
+        <energy in="kkla">390</energy>
+        <ingredients in="mg">
+            <sugar>10.3</sugar>
+            <cocoa>7</cocoa>
+            <vanillin>3.1</vanillin>
+            <water>2</water>
+        </ingredients>
+        <filling>true</filling>
+        <chocolate-type name ="MILK"/>
+        <value in="gramm">
+            <proteins>1.5</proteins>
+            <fats>8.5</fats>
+            <carbohydrates>76</carbohydrates>
+        </value>
+        <production>Collection</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </chocolate-candy>
+
+    <chocolate-candy id="c14">
+        <name>Snickers</name>
+        <energy in="kkla">500</energy>
+        <ingredients in="mg">
+            <sugar>12</sugar>
+            <cocoa>9</cocoa>
+            <vanillin>5.9</vanillin>
+            <water>5</water>
+        </ingredients>
+        <filling>true</filling>
+        <chocolate-type name ="MILK"/>
+        <value in="gramm">
+            <proteins>7.6</proteins>
+            <fats>26</fats>
+            <carbohydrates>58</carbohydrates>
+        </value>
+        <production>Mars</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </chocolate-candy>
+
+    <chocolate-candy id="c15">
+        <name>Vival-mango</name>
+        <energy in="kkla">387</energy>
+        <ingredients in="mg">
+            <sugar>9.3</sugar>
+            <cocoa>10</cocoa>
+            <vanillin>3.2</vanillin>
+            <water>6.8</water>
+        </ingredients>
+        <filling>true</filling>
+        <chocolate-type name ="MILK"/>
+        <value in="gramm">
+            <proteins>3.9</proteins>
+            <fats>14</fats>
+            <carbohydrates>57.8</carbohydrates>
+        </value>
+        <production>Good-Food</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </chocolate-candy>
+
+    <lollipop-candy id="c16">
+        <name>Halls</name>
+        <energy in="kkla">385</energy>
+        <ingredients in="mg">
+            <sugar>8</sugar>
+            <water>4.9</water>
+        </ingredients>
+        <value in="gramm">
+            <proteins>0.1</proteins>
+            <fats>0.5</fats>
+            <carbohydrates>95</carbohydrates>
+        </value>
+        <production>Mondelez</production>
+        <date-of-manufacture>2020-06-06T16:40:00</date-of-manufacture>
+    </lollipop-candy>
+
+</candies>

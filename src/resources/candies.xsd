@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.sweet-life.com/candies"
+        xmlns:tns="http://www.sweet-life.com/candies"
+        elementFormDefault="qualified">
+
+    <element name="candies">
+        <complexType>
+            <sequence>
+                <element ref="tns:candy" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="candy" type="tns:Candy" abstract="true"/>
+    <element name="chocolate-candy" type="tns:Chocolate-candy" substitutionGroup="tns:candy"/>
+    <element name="lollipop-candy" type="tns:Lollipop-candy" substitutionGroup="tns:candy"/>
+
+    <complexType name="Candy">
+        <sequence>
+            <element name="name" type="string"/>
+            <element name="energy" type="tns:Energy"/>
+            <element name="ingredients" type="tns:Ingredients"/>
+            <element name="value" type="tns:Value"/>
+            <element name="production" type="string"/>
+            <element name="date-of-manufacture" type="dateTime"/>
+        </sequence>
+        <attribute name="id" type="tns:candyID" use="required"/>
+    </complexType>
+
+    <simpleType name="candyID">
+        <restriction base="ID">
+            <pattern value="\w{1,20}"/>
+        </restriction>
+    </simpleType>
+
+    <complexType name="Energy">
+        <simpleContent>
+            <extension base="decimal">
+                <attribute name="in" type="string" default="kkal"/>
+            </extension>
+        </simpleContent>
+    </complexType>
+
+    <complexType name="Ingredients">
+        <all>
+            <element name="sugar" type="decimal" minOccurs="0"/>
+            <element name="water" type="decimal" minOccurs="0"/>
+            <element name="cocoa" type="decimal" minOccurs="0"/>
+            <element name="vanillin" type="decimal" minOccurs="0"/>
+        </all>
+        <attribute name="in" type="string" default="mg"/>
+    </complexType>
+
+    <complexType name="Value">
+        <sequence>
+            <element name="proteins" type="decimal"/>
+            <element name="fats" type="decimal"/>
+            <element name="carbohydrates" type="decimal"/>
+        </sequence>
+        <attribute name="in" type="string" default="gramm"/>
+    </complexType>
+
+    <complexType name="Chocolate-candy">
+        <complexContent>
+            <extension base="tns:Candy">
+                <sequence>
+                    <element name="filling" type="boolean"/>
+                    <element name="chocolate-type" type="tns:Chocolate-type"/>
+                </sequence>
+            </extension>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Lollipop-candy">
+        <complexContent>
+            <extension base="tns:Candy"/>
+        </complexContent>
+    </complexType>
+
+    <complexType name="Chocolate-type">
+        <simpleContent>
+            <extension base="string">
+                <attribute name="name" use="required">
+                    <simpleType>
+                        <restriction base="string">
+                            <enumeration value="DARK"></enumeration>
+                            <enumeration value="MILK"></enumeration>
+                        </restriction>
+                    </simpleType>
+                </attribute>
+            </extension>
+        </simpleContent>
+    </complexType>
+</schema>
